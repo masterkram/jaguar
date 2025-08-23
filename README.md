@@ -1,3 +1,5 @@
+<img src="https://github.com/user-attachments/assets/c1e9073b-5a96-4a66-afa5-b7c4510cb9c3" alt="Jaguar Logo" style="width: 100px; height: 100px; margin-left: auto; margin-right: auto; display: block;">
+
 # Jaguar - File Search API
 
 A Dockerized FastAPI service that allows users to upload files and search through them using powerful command-line tools like ripgrep, jq, and find. Files are automatically processed using the [Unstructured](https://docs.unstructured.io/open-source/introduction/quick-start) library to extract text and convert it to searchable markdown format.
