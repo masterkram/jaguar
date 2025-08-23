@@ -1,0 +1,19 @@
+[project]
+name = "jaguar"
+version = "0.1.0"
+description = "File Search API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "uvicorn[standard]>=0.32.0",
+    "python-multipart>=0.0.20",
+    "unstructured[all-docs]>=0.18.13",
+    "python-magic>=0.4.27",
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+]
+
+
+[tool.uv]
+dev-dependencies = ["pytest>=7.0.0", "httpx>=0.25.0", "pytest-asyncio>=0.21.0"]
