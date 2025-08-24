@@ -1,8 +1,12 @@
 <img src="https://github.com/user-attachments/assets/c1e9073b-5a96-4a66-afa5-b7c4510cb9c3" alt="Jaguar Logo" style="width: 100px; height: 100px; margin-left: auto; margin-right: auto; display: block;">
 
-# Jaguar - File Search API
+# Jaguar - Command Line Based Search API For AI Agents
 
-A Dockerized FastAPI service that allows users to upload files and search through them using powerful command-line tools like ripgrep, jq, and find. Files are automatically processed using the [Unstructured](https://docs.unstructured.io/open-source/introduction/quick-start) library to extract text and convert it to searchable markdown format.
+State of the art coding agents like [ClaudeCode](https://github.com/anthropics/claude-code) use tools like `ripgrep`, `jq` and `find` instead of vector embedding based search to provide context to the underlying models.
+
+So far this approach has only been possible for text based files like code and when the agent is running locally on the user's machine. The goal of jaguar is to provide this type of search for all filetypes (pdf, docx etc..) while being possible to use from anywhere via it's REST API.
+
+Jaguar is a Dockerized FastAPI service that allows humans and AI agents to upload files and search through them using powerful command-line tools like `ripgrep`, `jq`, and `find`. Files are automatically processed using the [Unstructured](https://docs.unstructured.io/open-source/introduction/quick-start) library to extract text and convert it to searchable markdown format.
 
 ## Features
 
